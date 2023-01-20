@@ -7,5 +7,7 @@ shred -n 7 -t /var/log/*.log.*
 rm /var/log/*.log.*.gz
 rm /var/log/*.gz
 echo "Borra historia de comandos .. "
-echo "" > ~/.bash_history && history -c
+echo "" > ~/.bash_history
+ecjp "" > ~/.zsh_history
+history -c
 history -cw && exit
