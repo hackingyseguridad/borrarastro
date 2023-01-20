@@ -1,4 +1,4 @@
 # borrarastro
 
-borrar historia de comandos ejecutados y los
+borrar historia de comandos ejecutados y logs
 
