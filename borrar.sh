@@ -4,10 +4,10 @@ rm -rf ~/.cache/*
 sudo rm -rf /tmp/*
 sudo journalctl --vacuum-time=1s
 sudo find /var/log -type f -name "*.log" -exec truncate -s 0 {} \;
-shred -n 7 -t /var/log/wtmp
-shred -n 7 -t /var/log/lastlog
-shred -n 7 -t /var/log/*.log
-shred -n 7 -t /var/log/*.log.*
+shred -n 7  /var/log/wtmp
+shred -n 7  /var/log/lastlog
+shred -n 7  /var/log/*.log
+shred -n 7  /var/log/*.log.*
 rm /var/log/*.log.*.gz
 rm /var/log/*.gz
 echo "Borra historia de comandos .. "
