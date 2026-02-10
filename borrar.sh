@@ -29,5 +29,5 @@ echo "" > /var/log/lastlog 2>/dev/null
 echo "" > ~/.bash_history 2>/dev/null
 rm -rf /tmp/* 2>/dev/null
 rm -rf /var/tmp/* 2>/dev/null
-
+rm -f ~/.zsh_history && exec zsh
 
