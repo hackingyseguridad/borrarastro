@@ -13,5 +13,7 @@ rm /var/log/*.gz
 echo "Borra historia de comandos .. "
 echo "" > ~/.bash_history
 ecjp "" > ~/.zsh_history
+rm ~/.zsh_history
+rm -f ~/.bash_history
 history -c
 history -cw && exit
