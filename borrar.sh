@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Borra logs del sistema..."
+echo 
 
 # Limpiar caché de usuario
 rm -rf ~/.cache/*
@@ -31,5 +31,5 @@ echo "" > /var/log/lastlog 2>/dev/null
 # Eliminar logs comprimidos
 sudo rm /var/log/*.log.*.gz /var/log/*.gz 2>/dev/null
 
-echo "Limpieza completada."
+echo 
 
