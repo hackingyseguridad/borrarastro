@@ -1,6 +1,6 @@
 #!/bin/sh
 # ======================================================
-# Script: limpieza_maxima.sh
+# Script: limpieza maxima bash Shell en sistema Linux
 # Descripcion: Limpieza agresiva para liberar espacio
 # Compatible: Bash 1.0.x / sh antiguo
 # ======================================================
