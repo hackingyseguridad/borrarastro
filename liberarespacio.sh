@@ -145,3 +145,26 @@ echo ""
 echo "[+] Resumen de espacio recuperado:"
 echo "    Revisa df -h para detalles"
 echo ""
+echo 
+echo "Buscando archivos mayores de 500MB..."
+
+find / -type f -size +500M 2>/dev/null
+
+echo ""
+printf "¿Eliminar archivos encontrados? (s/n): "
+read RESP
+
+if [ "$RESP" = "s" ] || [ "$RESP" = "S" ]; then
+
+    find / -type f -size +500M 2>/dev/null | while read FILE
+    do
+        echo "Borrando: $FILE"
+        rm -f "$FILE"
+    done
+
+    echo "Limpieza completada"
+
+else
+    echo "Cancelado"
+fi
+
