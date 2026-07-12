@@ -8,20 +8,9 @@
 
 ---
 
-## 📋 Descripción General
+## Descripción 
 
 **borrarastro** es una suite de scripts shell diseñados para **limpiar de forma segura y agresiva** los rastros digitales, historiales de comandos, logs del sistema, cachés y archivos temporales en distribuciones Linux.
-
-### 🎯 Usos principales
-
-- **Privacidad**: Eliminar historial de comandos (`bash`, `zsh`, etc.) y rastros de navegadores.
-- **Mantenimiento**: Liberar espacio en disco eliminando logs, cachés y temporales.
-- **Seguridad**: Borrar archivos sensibles (`known_hosts`, `ssh`, logs de autenticación, etc.).
-- **Forense / Red Team**: Limpiar rastros después de pruebas de penetración o auditorías.
-- **Automatización**: Ejecutar periódicamente con `cron`.
-
-> ⚠️ **Advertencia importante**  
-> Estos scripts realizan eliminaciones irreversibles. **Siempre haz una copia de seguridad** antes de ejecutarlos. Su uso puede dificultar la auditoría y el diagnóstico de problemas del sistema.
 
 ---
 
@@ -36,7 +25,7 @@
 
 ---
 
-## 🛠️ Descripción Detallada de los Scripts
+## 🛠️ Descripción de los Scripts
 
 ### 1. `borrarastro.sh` - **Limpieza Profunda**
 
