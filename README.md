@@ -61,7 +61,7 @@ Script mínimo que descarga y ejecuta `borrar.sh` directamente desde GitHub (út
 
 ---
 
-## Instalación y uso
+### Instalación y uso
 
 ```bash
 # 1. Clonar el repositorio
@@ -75,6 +75,32 @@ chmod +x *.sh
 sudo ./borrarastro.sh          # Limpieza profunda (recomendado)
 ./borrar.sh                    # Limpieza rápida de historial
 sudo ./liberarespacio.sh       # Liberar espacio en disco
+
+```
+
+### Uso en remoto, sin instalar el Git
+
+con curl
+
+# 1. Limpieza profunda (borrarastro.sh) - RECOMENDADO
+curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrarastro.sh | sudo bash
+
+# 2. Limpieza rápida de historial (borrar.sh)
+curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrar.sh | sudo bash
+
+# 3. Liberar espacio en disco (liberarespacio.sh)
+curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/liberarespacio.sh | sudo bash
+
+Con wget:
+
+# 1. Limpieza profunda
+wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrarastro.sh | sudo bash
+
+# 2. Limpieza rápida
+wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrar.sh | sudo bash
+
+# 3. Liberar espacio
+wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/liberarespacio.sh | sudo bash
 
 
 #
