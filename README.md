@@ -10,7 +10,7 @@
 
 ### Descripción 
 
-**borrarastro** es una suite de scripts shell diseñados para **limpiar de forma segura y agresiva** los rastros digitales, historiales de comandos, logs del sistema, cachés y archivos temporales en distribuciones Linux.
+**borrarastro** es una suite de scripts shell diseñados para **limpiar de forma segura** los rastros, historiales de comandos, logs del sistema, cachés y archivos temporales en distribuciones Linux.
 
 ---
 
