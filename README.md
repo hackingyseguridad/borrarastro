@@ -1,4 +1,3 @@
-## borrarastro
 
 **Borra rastros, historial, logs y libera espacio en sistemas Linux/Unix**
 
