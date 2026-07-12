@@ -25,11 +25,15 @@
 
 ---
 
-| Script                        | Comando de ejecución remota (curl) |
+| Script                        | Comando de ejecución remota |
 |-------------------------------|------------------------------------|
 | **borrarastro.sh**<br> | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrarastro.sh \| sudo bash` |
+| **borrarastro.sh**<br> | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrarastro.sh \| sudo bash` |
+| **borrar.sh**<br> | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrar.sh \| sudo bash` |
 | **borrar.sh**<br> | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrar.sh \| sudo bash` |
 | **liberarespacio.sh**<br> | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/liberarespacio.sh \| sudo bash` |
+| **liberarespacio.sh**<br> | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/liberarespacio.sh \| sudo bash` |
+
 
 ---
 
