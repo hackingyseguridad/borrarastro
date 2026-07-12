@@ -25,15 +25,14 @@
 
 ---
 
-| Script                        | Comando de ejecución remota |
-|-------------------------------|------------------------------------|
-| **borrarastro.sh**<br> | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrarastro.sh \| sudo bash` |
-| **borrarastro.sh**<br> | `wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrarastro.sh | sudo bash` |
-| **borrar.sh**<br> | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrar.sh \| sudo bash` |
-| **borrar.sh**<br> | `wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrar.sh | sudo bash` |
-| **liberarespacio.sh**<br> | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/liberarespacio.sh \| sudo bash` |
-| **liberarespacio.sh**<br> | `wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/liberarespacio.sh | sudo bash` |
-
+| Script              | Comando de ejecución remota |
+|---------------------|-----------------------------|
+| **borrarastro.sh**  | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrarastro.sh \| sudo bash` |
+| **borrarastro.sh**  | `wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrarastro.sh \| sudo bash` |
+| **borrar.sh**       | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrar.sh \| sudo bash` |
+| **borrar.sh**       | `wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrar.sh \| sudo bash` |
+| **liberarespacio.sh** | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/liberarespacio.sh \| sudo bash` |
+| **liberarespacio.sh** | `wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/liberarespacio.sh \| sudo bash` |
 
 ---
 
