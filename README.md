@@ -47,8 +47,6 @@ Versión ligera enfocada en:
 - Cachés del usuario.
 - Logs básicos del sistema.
 
-Ideal para uso frecuente en entornos de escritorio.
-
 ### 3. `liberarespacio.sh` - **Liberación Máxima de Espacio**
 
 Script muy completo con:
@@ -77,6 +75,7 @@ chmod +x *.sh
 sudo ./borrarastro.sh          # Limpieza profunda (recomendado)
 ./borrar.sh                    # Limpieza rápida de historial
 sudo ./liberarespacio.sh       # Liberar espacio en disco
+
 
 #
 http://www.hackingyseguridad.com/
