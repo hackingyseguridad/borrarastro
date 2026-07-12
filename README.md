@@ -14,7 +14,7 @@
 
 ---
 
-## 📊 Tabla Resumen de Scripts
+## Tabla Resumen de Scripts
 
 | Script                | Función Principal                          | Nivel de Agresividad | Requiere `sudo` | Distros Recomendadas          | Uso Recomendado                  |
 |-----------------------|--------------------------------------------|----------------------|-----------------|-------------------------------|----------------------------------|
@@ -25,7 +25,7 @@
 
 ---
 
-## 🛠️ Descripción de los Scripts
+## Descripción de los Scripts
 
 ### 1. `borrarastro.sh` - **Limpieza Profunda**
 
@@ -61,7 +61,7 @@ Script mínimo que descarga y ejecuta `borrar.sh` directamente desde GitHub (út
 
 ---
 
-## 🚀 Instalación y Uso
+## Instalación y uso
 
 ```bash
 # 1. Clonar el repositorio
