@@ -14,7 +14,7 @@
 
 ---
 
-### Tabla Resumen de Scripts
+### Tabla Resumen de scripts
 
 | Script                | Función Principal                          | Nivel de Agresividad | Requiere `sudo` | Distros Recomendadas          | Uso Recomendado                  |
 |-----------------------|--------------------------------------------|----------------------|-----------------|-------------------------------|----------------------------------|
@@ -25,7 +25,7 @@
 
 ---
 
-### Descripción de los Scripts
+### Descripción de los scripts
 
 ### 1. `borrarastro.sh` - **Limpieza Profunda**
 
