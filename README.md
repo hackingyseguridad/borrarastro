@@ -25,6 +25,14 @@
 
 ---
 
+| Script                        | Comando de ejecución remota (curl) |
+|-------------------------------|------------------------------------|
+| **borrarastro.sh**<br>Limpieza profunda (Recomendado) | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrarastro.sh \| sudo bash` |
+| **borrar.sh**<br>Limpieza rápida de historial | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrar.sh \| sudo bash` |
+| **liberarespacio.sh**<br>Liberación de espacio en disco | `curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/liberarespacio.sh \| sudo bash` |
+
+---
+
 ### Descripción de los scripts
 
 ### 1. `borrarastro.sh` - **Limpieza Profunda**
