@@ -8,13 +8,13 @@
 
 ---
 
-## Descripción 
+### Descripción 
 
 **borrarastro** es una suite de scripts shell diseñados para **limpiar de forma segura y agresiva** los rastros digitales, historiales de comandos, logs del sistema, cachés y archivos temporales en distribuciones Linux.
 
 ---
 
-## Tabla Resumen de Scripts
+### Tabla Resumen de Scripts
 
 | Script                | Función Principal                          | Nivel de Agresividad | Requiere `sudo` | Distros Recomendadas          | Uso Recomendado                  |
 |-----------------------|--------------------------------------------|----------------------|-----------------|-------------------------------|----------------------------------|
@@ -25,7 +25,7 @@
 
 ---
 
-## Descripción de los Scripts
+### Descripción de los Scripts
 
 ### 1. `borrarastro.sh` - **Limpieza Profunda**
 
@@ -82,24 +82,24 @@ sudo ./liberarespacio.sh       # Liberar espacio en disco
 
 con curl
 
-# 1. Limpieza profunda (borrarastro.sh) - RECOMENDADO
+### 1. Limpieza profunda (borrarastro.sh) - RECOMENDADO
 curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrarastro.sh | sudo bash
 
-# 2. Limpieza rápida de historial (borrar.sh)
+### 2. Limpieza rápida de historial (borrar.sh)
 curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrar.sh | sudo bash
 
-# 3. Liberar espacio en disco (liberarespacio.sh)
+### 3. Liberar espacio en disco (liberarespacio.sh)
 curl -sSL https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/liberarespacio.sh | sudo bash
 
 Con wget:
 
-# 1. Limpieza profunda
+### 1. Limpieza profunda
 wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrarastro.sh | sudo bash
 
-# 2. Limpieza rápida
+### 2. Limpieza rápida
 wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/borrar.sh | sudo bash
 
-# 3. Liberar espacio
+### 3. Liberar espacio
 wget -qO- https://raw.githubusercontent.com/hackingyseguridad/borrarastro/main/liberarespacio.sh | sudo bash
 
 
