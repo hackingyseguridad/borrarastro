@@ -1,7 +1,5 @@
 ## borrarastro
 
-# 🧹 borrarastro
-
 **Borra rastros, historial, logs y libera espacio en sistemas Linux/Unix**
 
 [![GitHub stars](https://img.shields.io/github/stars/hackingyseguridad/borrarastro.svg)](https://github.com/hackingyseguridad/borrarastro)
